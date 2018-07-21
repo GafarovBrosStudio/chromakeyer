@@ -4,4 +4,4 @@ ChromaKeyer is an application for removing colored background from still images.
 
 ChromaKeyer is written in D using OpenGL, [SDL2](https://www.libsdl.org), [NativeFileDialog](https://github.com/mlabbe/nativefiledialog) and [dlib](https://github.com/gecko0307/dlib). It also uses some components from [Dagon](https://github.com/gecko0307/dagon).
 
-[![Screenshot](/screenshots/ck-1.0-thumb.jpg)](/screenshots/ck-1.0.jpg)
+![Screenshot](/screenshots/ck-1.0.jpg)

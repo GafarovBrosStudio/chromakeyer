@@ -1,5 +1,5 @@
 {
-    "name": "ChromaKeyer",
+    "name": "chromakeyer",
     "description": "Background removal tool",
     "homepage": "https://github.com/GafarovBrosStudio/chromakeyer",
     "license": "Boost",
@@ -25,8 +25,8 @@
             "targetType": "executable",
             "sourcePaths": ["src"],
             "mainSourceFile": "src/main.d",
+            "libs-windows-x86": ["nfd32"],
             "libs-windows-x86_64": ["nfd64"],
-            "lflags-windows-x86_64-dmd": ["/SUBSYSTEM:WINDOWS:5.02"]
         }
     ]
 }
